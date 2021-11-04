@@ -6,7 +6,7 @@ export default {
   target: 'static',
 
   router: {
-    base: '/tmtb-qr-example/'
+    base: '/checkdata-example/'
   },
 
   // Global page headers: https://go.nuxtjs.dev/config-head
