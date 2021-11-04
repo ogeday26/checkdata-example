@@ -9,7 +9,8 @@
     "generate": "nuxt generate",
     "lint:js": "eslint --ext \".js,.vue\" --ignore-path .gitignore .",
     "prepare": "husky install",
-    "lint": "yarn lint:js"
+    "lint": "yarn lint:js",
+    "deploy": "push-dir --dir=dist --branch=gh-pages --cleanup"
   },
   "lint-staged": {
     "*.{js,vue}": "eslint"
@@ -34,6 +35,7 @@
     "eslint-plugin-vue": "^7.12.1",
     "husky": "^6.0.0",
     "lint-staged": "^10.5.4",
-    "prettier": "^2.3.2"
+    "prettier": "^2.3.2",
+    "push-dir": "^0.4.1"
   }
 }
